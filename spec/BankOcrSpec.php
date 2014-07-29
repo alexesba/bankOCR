@@ -12,4 +12,8 @@ class BankOcrSpec extends ObjectBehavior
         $this->shouldHaveType('BankOcr');
     }
 
+    function it_load_a_file(){
+      $this->load('file');
+    }
+
 }
